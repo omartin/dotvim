@@ -36,6 +36,7 @@ set winwidth=79
 " This makes RVM work inside Vim. I have no idea why.
 set shell=bash
 " Prevent Vim from clobbering the scrollback buffer. See
+" call pathogen#helptags()
 " http://www.shallowsky.com/linux/noaltscreen.html
 set t_ti= t_te=
 " keep more context when scrolling off the end of a buffer
@@ -213,3 +214,4 @@ endif
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
+nnoremap <F5> :GundoToggle<CR>
