@@ -215,3 +215,10 @@ let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
 nnoremap <F5> :GundoToggle<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Indent Markdown
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+if has("autocmd")
+      filetype plugin indent on
+endif
