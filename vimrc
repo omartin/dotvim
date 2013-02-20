@@ -88,7 +88,7 @@ augroup vimrcEx
   autocmd FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
 
   " Don't syntax highlight markdown because it's often wrong
-  autocmd! FileType mkd setlocal syn=off
+  " autocmd! FileType mkd setlocal syn=off
 
   " Leave the return key alone when in command line windows, since it's used
   " to run commands there.
@@ -217,8 +217,15 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 nnoremap <F5> :GundoToggle<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Indent Markdown
+" Folding stuff
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-if has("autocmd")
-      filetype plugin indent on
-endif
+set foldlevelstart=0
+
+" Space to toggle folds.
+nnoremap <Space> za
+vnoremap <Space> za
+
+" "Refocus" folds
+nnoremap ,z zMzvzz
+
+autocmd filetype plugin indent on

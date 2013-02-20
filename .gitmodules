@@ -25,3 +25,6 @@
 [submodule "bundle/markdown-folding"]
 	path = bundle/markdown-folding
 	url = https://github.com/nelstrom/vim-markdown-folding.git
+[submodule "bundle/seek"]
+	path = bundle/seek
+	url = https://github.com/goldfeld/vim-seek.git
