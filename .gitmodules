@@ -28,3 +28,9 @@
 [submodule "bundle/seek"]
 	path = bundle/seek
 	url = https://github.com/goldfeld/vim-seek.git
+[submodule "bundle/hardmode"]
+	path = bundle/hardmode
+	url = https://github.com/wikitopian/hardmode.git
+[submodule "bundle/startify"]
+	path = bundle/startify
+	url = https://github.com/mhinz/vim-startify.git
