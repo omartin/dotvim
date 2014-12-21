@@ -40,3 +40,6 @@
 [submodule "bundle/swift"]
 	path = bundle/swift
 	url = https://github.com/Keithbsmiley/swift.vim.git
+[submodule "bundle/goyo"]
+	path = bundle/goyo
+	url = https://github.com/junegunn/goyo.vim.git
