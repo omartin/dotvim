@@ -40,3 +40,6 @@
 [submodule "bundle/colorschemes"]
 	path = bundle/colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/swift"]
+	path = bundle/swift
+	url = https://github.com/Keithbsmiley/swift.vim.git

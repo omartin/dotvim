@@ -61,6 +61,7 @@ set wildmode=longest,list
 " make tab completion for files/buffers act like bash
 set wildmenu
 let mapleader=","
+runtime macros/matchit.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CUSTOM AUTOCMDS
