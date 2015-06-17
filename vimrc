@@ -231,3 +231,13 @@ vnoremap <Space> za
 nnoremap ,z zMzvzz
 
 autocmd filetype plugin indent on
+
+" Copy pasting
+vnoremap <leader>y "*y
+vnoremap <leader>p "*p
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" System copy paste
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+vmap <C-c> y:call system("pbcopy", getreg("\""))<CR>
+nmap <C-v> :call setreg("\"",system("pbpaste"))<CR>p
