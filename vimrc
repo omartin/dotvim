@@ -31,6 +31,7 @@ set cmdheight=2
 set switchbuf=useopen
 set number
 set numberwidth=5
+set relativenumber
 set showtabline=2
 set winwidth=79
 " This makes RVM work inside Vim. I have no idea why.
@@ -82,8 +83,9 @@ augroup vimrcEx
 
   autocmd! BufRead,BufNewFile *.sass setfiletype sass 
 
-  autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
-  autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:&gt;
+  autocmd BufRead *.md  set filetype=markdown ai formatoptions=tcroqn2 comments=n:&gt;
+  autocmd BufRead *.mkd  set filetype=markdown ai formatoptions=tcroqn2 comments=n:&gt;
+  autocmd BufRead *.markdown  set filetype=markdown ai formatoptions=tcroqn2 comments=n:&gt;
 
   " Indent p tags
   autocmd FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
