@@ -1,5 +1,4 @@
-
-colorscheme iawriter
+colorscheme seoul256
 set guifont=Consolas:h14
 set transparency=5
 set formatoptions=1 
@@ -11,3 +10,10 @@ set linebreak
 set guioptions=aAce
 set showtabline=1
 set wrapmargin=0
+
+set filetype=markdown
+
+autocmd VimEnter * Goyo
+autocmd VimEnter * Limelight
+autocmd VimEnter * set filetype=markdown
+autocmd BufEnter * if &filetype == "" | setlocal ft=markdown | endif
