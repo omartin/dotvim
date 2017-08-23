@@ -1,4 +1,5 @@
 "set fu
+"colorscheme seoul256
 colorscheme flattr
 set guifont=Consolas:h14
 set transparency=5
