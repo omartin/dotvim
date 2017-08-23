@@ -31,3 +31,6 @@
 [submodule "bundle/limelight"]
 	path = bundle/limelight
 	url = git@github.com:junegunn/limelight.vim.git
+[submodule "bundle/swift"]
+	path = bundle/swift
+	url = https://github.com/keith/swift.vim

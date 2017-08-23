@@ -83,6 +83,7 @@ augroup vimrcEx
 
   autocmd! BufRead,BufNewFile *.sass setfiletype sass 
 
+  autocmd BufRead *.txt  set filetype=markdown ai formatoptions=tcroqn2 comments=n:&gt;
   autocmd BufRead *.md  set filetype=markdown ai formatoptions=tcroqn2 comments=n:&gt;
   autocmd BufRead *.mkd  set filetype=markdown ai formatoptions=tcroqn2 comments=n:&gt;
   autocmd BufRead *.markdown  set filetype=markdown ai formatoptions=tcroqn2 comments=n:&gt;
@@ -138,6 +139,9 @@ nnoremap <leader><leader> <c-^>
 
 " Clear HLS
 "noremap <silent> <C-l> : <C-u> nohlsearch <CR><C-l>
+
+" Save with standard MacOS shortcut
+noremap  <silent> <D-S>    :w<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " OPEN FILES IN DIRECTORY OF CURRENT FILE
@@ -241,5 +245,5 @@ vnoremap <leader>p "*p
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " System copy paste
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-vmap <C-c> y:call system("pbcopy", getreg("\""))<CR>
-nmap <C-v> :call setreg("\"",system("pbpaste"))<CR>p
+vmap <D-c> y:call system("pbcopy", getreg("\""))<CR>
+nmap <D-v> :call setreg("\"",system("pbpaste"))<CR>p
