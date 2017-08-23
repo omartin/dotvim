@@ -245,16 +245,11 @@ vnoremap <leader>p "*p
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " System copy paste
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-<<<<<<< HEAD
 vmap <D-c> y:call system("pbcopy", getreg("\""))<CR>
 nmap <D-v> :call setreg("\"",system("pbpaste"))<CR>p
-=======
-vmap <C-c> y:call system("pbcopy", getreg("\""))<CR>
-nmap <C-v> :call setreg("\"",system("pbpaste"))<CR>p
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Syntax
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 au BufNewFile,BufRead Podfile set filetype=ruby
 au BufNewFile,BufRead Fastfile set filetype=ruby
->>>>>>> 3e61d3277c491d97e6c833a6c2bff260b9e7f76c
