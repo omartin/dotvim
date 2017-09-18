@@ -251,5 +251,4 @@ nmap <D-v> :call setreg("\"",system("pbpaste"))<CR>p
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Syntax
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-au BufNewFile,BufRead Podfile set filetype=ruby
-au BufNewFile,BufRead Fastfile set filetype=ruby
+au BufNewFile,BufRead *file set filetype=ruby
