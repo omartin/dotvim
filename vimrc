@@ -108,7 +108,8 @@ let g:solarized_termcolors=256
 set background=dark
 "colorscheme solarized
 "colorscheme sorcerer
-colorscheme jellybeans
+"colorscheme jellybeans
+colorscheme iceberg
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
