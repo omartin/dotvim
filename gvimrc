@@ -19,3 +19,6 @@ autocmd VimEnter * set filetype=markdown
 autocmd BufEnter * if &filetype == "" | setlocal ft=markdown | endif
 autocmd VimEnter * Limelight
 autocmd VimEnter * Goyo
+
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <Esc>:w<CR>a

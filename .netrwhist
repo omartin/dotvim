@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/olive/.gradle'
-let g:netrw_dirhist_2='/Users/olive/dev/LBC/ios/Main/Classes/Controller/Event'
-let g:netrw_dirhist_3='/Users/olive/.vim/.git/modules'
-let g:netrw_dirhist_4='/Users/olive/dev/LBC/ios/Main/Classes/Controller/Event'
-let g:netrw_dirhist_5='/Users/olive/dev/LBC/ios/Distribution'
-let g:netrw_dirhist_6='/Users/olive/dev/LBC/ios/Main/Classes/View/Event'
-let g:netrw_dirhist_7='/Users/olive/dev/LBC/ios/Main/Classes/Controller/Event'
