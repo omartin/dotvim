@@ -1,12 +1,14 @@
 "set fu
 "colorscheme seoul256
 colorscheme flattr
-set guifont=Consolas:h14
+set guifont=Inconsolata:h15
 set transparency=5
 set formatoptions=1 
 set noexpandtab 
 set wrap 
 set linebreak 
+set linespace=2
+set noshowmode
 "set spell spelllang=fr_FR
 
 set guioptions=aAce
