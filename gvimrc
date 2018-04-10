@@ -1,7 +1,8 @@
 "set fu
 "colorscheme seoul256
 colorscheme flattr
-set guifont=Inconsolata:h15
+#set guifont=Inconsolata:h15
+set guifont=Operator\ Mono\ Light:h14
 set transparency=5
 set formatoptions=1 
 set noexpandtab 
