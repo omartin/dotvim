@@ -10,6 +10,7 @@ set wrap
 set linebreak 
 set linespace=2
 set noshowmode
+set viminfo='20
 "set spell spelllang=fr_FR
 
 set guioptions=aAce
@@ -28,3 +29,4 @@ inoremap <C-s> <Esc>:w<CR>a
 
 let mapleader="\<Space>"
 nmap <Leader>d i<C-R>=strftime("# %Y-%m-%d %a - ")<CR>
+nmap <Leader>o :browse oldfiles<CR>
