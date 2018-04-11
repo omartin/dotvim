@@ -25,3 +25,6 @@ autocmd VimEnter * Goyo
 
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
+
+let mapleader="\<Space>"
+nmap <Leader>d i<C-R>=strftime("# %Y-%m-%d %a - ")<CR>
