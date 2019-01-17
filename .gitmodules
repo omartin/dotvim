@@ -37,3 +37,6 @@
 [submodule "bundle/iceberg"]
 	path = bundle/iceberg
 	url = git@github.com:cocopon/iceberg.vim.git
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git

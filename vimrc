@@ -61,7 +61,7 @@ filetype plugin indent on
 set wildmode=longest,list
 " make tab completion for files/buffers act like bash
 set wildmenu
-let mapleader=","
+let mapleader="\<Space>"
 runtime macros/matchit.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -220,7 +220,6 @@ if has("autocmd")
     autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
-let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
 
@@ -244,3 +243,8 @@ au BufNewFile,BufRead *file set filetype=ruby
 
 nnoremap <Tab> :bnext!<CR>
 nnoremap <S-Tab> :bprev!<CR><Paste>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Misc
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vimwiki_list = [{'path':'~/Dropbox/NOTES/wiki', 'path_html':'~/Dropbox/NOTES/wiki/html/'}]
