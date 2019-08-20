@@ -1,0 +1,32 @@
+colorscheme flattr
+set guifont=Operator\ Mono\ Light:h13
+set transparency=5
+set formatoptions=1 
+set noexpandtab 
+set wrap 
+set linebreak 
+set linespace=2
+set noshowmode
+set viminfo='20
+set spell spelllang=fr_FR
+
+set guioptions=aAce
+set showtabline=1
+set wrapmargin=0
+set laststatus=0
+set nonumber
+set norelativenumber
+
+set filetype=markdown
+
+autocmd VimEnter * set filetype=markdown
+autocmd BufEnter * if &filetype == "" | setlocal ft=markdown | endif
+
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <Esc>:w<CR>a
+
+let mapleader="\<Space>"
+nmap <Leader>d i<C-R>=strftime("## %Y-%m-%d %a - ")<CR>
+nmap <Leader>o :browse oldfiles<CR>
+nmap <Leader>f :set fu<CR>
+
