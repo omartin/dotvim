@@ -247,5 +247,5 @@ nnoremap <S-Tab> :bprev!<CR><Paste>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Misc
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:vimwiki_list = [{'path':'~/Dropbox/NOTES/wiki', 'syntax': 'markdown', 'path_html':'~/Dropbox/NOTES/wiki/html/'}]
+let g:vimwiki_list = [{'path':'~/Google Drive/NOTES/wiki', 'syntax': 'markdown', 'path_html':'~/Google Drive/NOTES/wiki/html/'}]
 
