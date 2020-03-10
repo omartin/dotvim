@@ -106,9 +106,6 @@ augroup END
 "se t_Co=256
 let g:solarized_termcolors=256
 set background=dark
-"colorscheme solarized
-"colorscheme sorcerer
-"colorscheme jellybeans
 colorscheme iceberg
 
 
@@ -123,10 +120,10 @@ colorscheme iceberg
 map <leader>y "*y
 
 " Move around splits with <c-hjkl>
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
+nnoremap <leader>j <c-w>j
+nnoremap <leader>k <c-w>k
+nnoremap <leader>h <c-w>h
+nnoremap <leader>l <c-w>l
 
 " Can't be bothered to understand ESC vs <c-c> in insert mode
 imap <c-c> <esc>
@@ -150,6 +147,7 @@ noremap  <silent> <D-S>    :w<CR>
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 map <leader>e :edit %%
 map <leader>v :view %%
+map <leader>ww :edit ~/notes<cr>G
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RENAME CURRENT FILE
