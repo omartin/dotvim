@@ -28,6 +28,5 @@ nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
 
 let mapleader="\<Space>"
-nmap <Leader>d i<C-R>=strftime("## %Y-%m-%d %a - ")<CR>
 nmap <Leader>o :browse oldfiles<CR>
 nmap <Leader>f :set fu<CR>

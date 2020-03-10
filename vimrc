@@ -243,9 +243,3 @@ au BufNewFile,BufRead *file set filetype=ruby
 
 nnoremap <Tab> :bnext!<CR>
 nnoremap <S-Tab> :bprev!<CR><Paste>
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Misc
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:vimwiki_list = [{'path':'~/Google Drive/NOTES/wiki', 'syntax': 'markdown', 'path_html':'~/Google Drive/NOTES/wiki/html/'}]
-
